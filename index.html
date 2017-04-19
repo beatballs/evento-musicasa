@@ -70,14 +70,21 @@
            <!-- <img src="img/logo final.png" class="logo"> -->
            <br>
               
-              <h1>&#128588 O evento mais épico de 2017 &#128588</h1>
+              <h1>&#128588 O evento mais épico do ano &#128588</h1>
             <h3>Junta-te a nós para ajudar quem mais precisa!</h3>
             <h4>Dia 6 de Maio no Colégio de São Tomás</h4>
-            <a href="#tickets" class="btn btn-lg btn-red">Compra já o teu bilhete! <span class="ti-arrow-right"></span></a>
+            <a href="#tickets" class="btn btn-lg btn-red"><span class="ti-ticket"></span> Compra já o teu bilhete <span class="ti-ticket"></span></a>
 
           </div></center>
         
-              
+              <section>
+
+<a href="#" class="scroll-down" address="true"></a>
+</section>
+<section class="ok">
+
+</section>
+
               
         </div>
         <!-- End: Header -->
@@ -104,16 +111,19 @@
             <p>Um evento para toda a família. O teu pinguim vai ficar sozinho em casa? Trá-lo contigo!</p>
           </div>
           <div class="col-md-4 feature">
-            <span class="ti-microphone"></span>
-            <h3>Um cartaz do caraças</h3>
-            <p>Músicos, comediantes, speakers e mais umas supresas que temos na manga.</p>
+            <span class="ti-location-pin"></span>
+            <h3>Onde e Quando?</h3>
+            <p>Dia 6 de Maio no Colégio de São Tomás!</p>
+            
           </div>
           <div class="col-md-4 feature">
             <span class="ti-world"></span>
-            <h3>Vamos salvar o mundo. Vens?</h3>
+            <h3>Porque?</h3>
             <p>Nem todos somos a Madre Teresa de Calcutá ou o Martin Luther King. No entanto, o desejo de tornar o Mundo num sítio melhor reflecte-se, muitas vezes, nos pequenos gestos e nas pequenas iniciativas. </p>
           </div>
         </div>
+          
+          
         <!-- End: Desc -->
 <hr>
         <!-- Start: Speakers -->
@@ -179,13 +189,13 @@
             <h3>Individual</h3>
             <p class="price">€3</p>
             <p>Acesso total, mas só para ti &#128521</p>
-            <a href="#" class="btn btn-lg btn-red">Comprar <small>(já só faltam 10)</small></a>
+            <a href="#contactos" class="btn btn-lg btn-red">Comprar <small>(já só faltam 10)</small></a>
           </div>
           <div class="col-md-4 col-sm-6">
             <h3>Família</h3>
             <p class="price">€10</p>
             <p>Acesso para toda a família &#128563</p>
-            <a href="#" class="btn btn-lg btn-red">Comprar <small>(já só faltam 12)</small></a>
+            <a href="#contactos" class="btn btn-lg btn-red">Comprar <small>(já só faltam 12)</small></a>
           </div>
         </div>
       </div>
@@ -472,7 +482,7 @@
             <hr>
             <span class="ti-instagram"></span><p>Já viste o nosso <a href="#">Instagram</a>? Faz #follow ca gente faz #followback!</p>
             <hr>
-           <span class="ti-heart"></span> <p><a href="mailito:geralmusicasa.pt">evento@musicasa.pt</a>  </p>
+           <span class="ti-heart"></span> <p><a href="mailito:evento@musicasa.pt?Subject=Olá!%20Ainda%20há%20bilhetes%20para%20o%20evento%20épico?">evento@musicasa.pt</a>  </p>
           </div>
         </div>
         <div class="row footer-credit">
@@ -527,5 +537,12 @@ $(document).ready(function(){
   });
 });
 </script>
+      <script>
+         $(function() {
+    $('.scroll-down').click (function() {
+      $('html, body').animate({scrollTop: $('section.ok').offset().top }, 'slow');
+      return false;
+    });
+  });</script>  
     </body>
     </html>
