@@ -25,12 +25,14 @@ a:hover, a:focus, a:active, a:visited {
 .btn {
 	text-transform: uppercase;
     font-weight: 600;
+
 }
 .btn-lg {
 	padding: 2.5% 4%;
     font-size: 100%;
     line-height: none;
     border-radius: 4px;
+    border-top:  90%;
 }
 .btn-red {
 	background-color: #dd5138;
@@ -107,12 +109,15 @@ a:hover, a:focus, a:active, a:visited {
 }
 
 
+.minion {
+	width: 40%;
+}
+
 
 .hero-header {
 	background-color: #169776;
-	height: 70vh;
+	height: 100vh;
 	padding: 4em;
-    padding-top: 0%;
 	color: #fff;
 }
 .hero-header h1 {
