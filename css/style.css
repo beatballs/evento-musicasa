@@ -118,10 +118,13 @@ a:hover, a:focus, a:active, a:visited {
 
 
 .hero-header {
-	background-color: #169776;
+	background-image:url(fundomarca.jpg); 
 	height: 100vh;
 	padding: 4em;
 	color: #fff;
+    background-position: center;
+    background-size:cover;
+    
 }
 .hero-header h1 {
 	margin: 1em 0 0 0;
@@ -136,6 +139,7 @@ a:hover, a:focus, a:active, a:visited {
 }
 .hero-header .btn {
 	margin-top: 4em;
+    color: #fff;
 }
 .hero-header .rocket {
 	max-width: 100%;
